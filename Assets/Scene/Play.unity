@@ -385,7 +385,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.25
   type: 2
+  flag: 0
   Character: {fileID: 668184702}
+  otherButton:
+  - {fileID: 1383330268}
+  - {fileID: 1367402924}
 --- !u!61 &469564797
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -442,7 +446,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0
   type: 0
+  flag: 0
   Character: {fileID: 0}
+  otherButton: []
 --- !u!212 &623306866
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -659,7 +665,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 668184702}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -11, z: 1}
+  m_LocalPosition: {x: 0, y: -12, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -880,6 +886,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c345e80f1f74ddf46a669dd12bc8293e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sudah: 0
 --- !u!4 &920175095
 Transform:
   m_ObjectHideFlags: 0
@@ -887,7 +894,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 920175093}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.07881539, y: -6.3840704, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1314,7 +1321,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.25
   type: 1
+  flag: 0
   Character: {fileID: 668184702}
+  otherButton:
+  - {fileID: 1383330268}
+  - {fileID: 469564796}
 --- !u!61 &1367402925
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1426,7 +1437,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.25
   type: 0
+  flag: 0
   Character: {fileID: 668184702}
+  otherButton:
+  - {fileID: 1367402924}
+  - {fileID: 469564796}
 --- !u!61 &1383330269
 BoxCollider2D:
   m_ObjectHideFlags: 0
