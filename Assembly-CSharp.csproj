@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B9AAA4D4-48F0-8778-8622-D97BC79B87FE}</ProjectGuid>
+    <ProjectGuid>{8EC5D061-BCB1-5C81-06F5-93E7B61D6C40}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,6 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\buttonScript.cs" />
+     <Compile Include="Assets\Scripts\gameManager.cs" />
      <Compile Include="Assets\Scripts\runningRoadScript.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
