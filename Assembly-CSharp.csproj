@@ -53,6 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\buttonScript.cs" />
      <Compile Include="Assets\Scripts\gameManager.cs" />
+     <Compile Include="Assets\Scripts\panelScript.cs" />
      <Compile Include="Assets\Scripts\runningRoadScript.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

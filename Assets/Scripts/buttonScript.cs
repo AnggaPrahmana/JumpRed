@@ -17,7 +17,9 @@ public class buttonScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		escalateButton();
+		if(!gameManager.gamePause){
+			escalateButton();
+		}
 	}
 
 	void OnMouseDown(){

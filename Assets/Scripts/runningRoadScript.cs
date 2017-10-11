@@ -12,13 +12,15 @@ public class runningRoadScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(transform.position.y <= -100){
-			transform.position = new Vector3(targetSpawner.position.x,targetSpawner.position.y+145,targetSpawner.position.z);
-		}	
-		else {
-			float moveY = transform.position.y;
-			moveY -= 0.5f;
-			transform.position = new Vector3(transform.position.x,moveY,transform.position.z);
-		}	
+		if(!gameManager.gamePause){
+			if(transform.position.y <= -100){
+				transform.position = new Vector3(targetSpawner.position.x,targetSpawner.position.y+145,targetSpawner.position.z);
+			}	
+			else {
+				float moveY = transform.position.y;
+				moveY -= 0.5f;
+				transform.position = new Vector3(transform.position.x,moveY,transform.position.z);
+			}
+		}
 	}
 }

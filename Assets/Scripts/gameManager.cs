@@ -5,7 +5,7 @@ using UnityEngine;
 public class gameManager : MonoBehaviour {
 
 	// Use this for initialization
-	public bool sudah;
+	public static bool gamePause;
 	void Start () {
 		
 	}
