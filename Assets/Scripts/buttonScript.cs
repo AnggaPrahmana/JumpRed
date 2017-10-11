@@ -73,22 +73,22 @@ public class buttonScript : MonoBehaviour {
 	}
 
 	void escalateButton(){
-		if(transform.position.y>= -14 ){
+		if(transform.position.y <= -32 ){
 			if(flag==0){
 				Debug.Log("Miss");
-				if(transform.position.y>-15){
-					transform.position = new Vector3(transform.position.x,-50,transform.position.z);
+				if(transform.position.y>-35){
+					transform.position = new Vector3(transform.position.x,-4,transform.position.z);
 				}
 			}
 			else{
-				transform.position = new Vector3(transform.position.x,-50,transform.position.z);
+				transform.position = new Vector3(transform.position.x,-4,transform.position.z);
 			}
 		}
 		else{
 			float moveY = transform.position.y;
-			moveY += speed;
+			moveY -= speed;
 			transform.position = new Vector3(transform.position.x, moveY , transform.position.z);
-			if(transform.position.y>-40&&transform.position.y<-35){
+			if(transform.position.y<-4 && transform.position.y>-8){
 				for(int i=0;i<otherButton.Length;i++){
 					otherButton[i].flag = 0;
 				}

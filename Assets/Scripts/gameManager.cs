@@ -14,4 +14,8 @@ public class gameManager : MonoBehaviour {
 	void Update () {
 		
 	}
+
+	public void test(){
+		Debug.Log("aaaa");
+	}
 }

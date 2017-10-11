@@ -16,11 +16,11 @@ public class panelScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(isShow){
-			panelMenu.position = new Vector3(panelMenu.position.x,300,panelMenu.position.x);
+			panelMenu.position = new Vector3(0,0,0);
 			gameManager.gamePause = true;
 		}
 		else if(!isShow){
-			panelMenu.position = new Vector3(panelMenu.position.x,-300,panelMenu.position.z);
+			panelMenu.position = new Vector3(50,0,0);
 			gameManager.gamePause = false;
 		}
 	}
