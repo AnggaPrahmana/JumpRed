@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: f2b2261bce4320245a0680184d9b310a
+timeCreated: 1507793750
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: EastLift
+  fontNames:
+  - EastLift
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
