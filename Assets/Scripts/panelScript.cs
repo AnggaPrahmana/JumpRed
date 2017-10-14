@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class panelScript : MonoBehaviour {
 
-	public RectTransform panelMenu;
+	public RectTransform panelMenu,losePanel;
 	// Use this for initialization
 	bool isShow;
 	float speed;
@@ -23,10 +23,21 @@ public class panelScript : MonoBehaviour {
 			panelMenu.position = new Vector3(50,0,0);
 			gameManager.gamePause = false;
 		}
+
+		if(gameManager.loseGame){
+			losePanel.position = new Vector3(0,0,0);
+			panelMenu.position = new Vector3(50,0,0);
+		}
+		else if(!gameManager.loseGame){
+			losePanel.position = new Vector3(50,0,0);
+		}
 	}
 
 	public void ShowPanelMenu(){
 		isShow = !isShow;
 	}
 
+	public void loseGameCondition(){
+		gameManager.loseGame=!gameManager.loseGame;
+	}
 }
